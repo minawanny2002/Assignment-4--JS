@@ -123,7 +123,7 @@ function findUser() {
     return false;
 }
 function validateName() {
-    var regex = /^[a-zA-Z]{3,}$/;
+    var regex = /^[a-zA-Z ]{3,}$/;
     if (regex.test(signUPName.value)) {
         return true;
     }

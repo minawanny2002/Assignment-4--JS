@@ -1,0 +1,35 @@
+body {
+    background-color: #24353f;
+}
+
+.title
+{
+    font-size: 60px;
+    color: #17a2b8;
+
+}
+.main-box {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #24353f;
+    
+}
+.cont{
+    height: 100vh;
+}
+.login-btn
+{
+    border: 1px solid #17a2b8;
+    color: white;
+}
+.login-btn:hover
+{
+    background-color: #17a2b8;
+}
+.main-box input::placeholder {
+    color: rgb(180, 178, 178);
+  }
+
+.sign-up-btn , .sign-in-btn
+{
+    cursor: pointer;
+}

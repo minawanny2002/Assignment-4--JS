@@ -1,0 +1,30 @@
+body
+{
+    background-color: #24353f;
+}
+.nav-box
+{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #24353f;
+}
+.logout-btn{
+    border: 1px solid #ffc107;
+    transition: all 0.3s;
+}
+.logout-btn:hover{
+    background-color: #ffc107;
+}
+.title
+{
+    font-size: 60px;
+    color: #17a2b8;
+
+}
+.main-box-1 {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    background-color: #24353f;
+    
+}
+.cont{
+    height: 100vh;
+}

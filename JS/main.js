@@ -164,7 +164,7 @@ function checkInfo() {
         if (signInEmail.value == users[i].userEmail) {
             if (signInPassword.value == users[i].userPassword) {
                 localStorage.setItem('loggedInUser', JSON.stringify(users[i]));
-                window.location.href = "./../home.html";
+                window.location.href = "home.html";
             }
             else {
                 aletMsgSignIn.innerHTML = `Password Wrong`;

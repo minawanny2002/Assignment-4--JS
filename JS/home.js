@@ -11,6 +11,6 @@ else {
 navBox.innerHTML += `${loggedUser.userName}`;
 
 logoutButton.addEventListener("click" , function(){
-    window.location.href = './../index.html';
+    window.location.href = 'index.html';
     localStorage.removeItem('loggedInUser');
 })
